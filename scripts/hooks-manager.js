@@ -79,10 +79,6 @@ export class HooksManager {
             HideNPCNames.onRenderActorSheet(app, html, data);
         });
 
-        Hooks.on("getHeaderControlsBaseActorSheet", (app, controls) => {
-            HideNPCNames.onGetHeaderControlsBaseActorSheet(app, controls);
-        });
-
         Hooks.on("getHeaderControlsActorSheetV2", (app, controls) => {
             HideNPCNames.onGetHeaderControlsBaseActorSheet(app, controls);
         });
