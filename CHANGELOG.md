@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1
+
+* Fixed double header option in dnd5e
+
 ## 1.4.0
 
 * Added a hook after updating the chat message
