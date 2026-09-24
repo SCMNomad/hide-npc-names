@@ -2,7 +2,7 @@ import { Utils } from "./utils.js";
 
 const CREATURE_TYPE_DATA_PATH_OVERRIDE = "creatureTypeDataPathOverride";
 const CREATURE_TYPE_PATHS = {
-    pf1: "system.traits.type"
+    pf1: "race.system.creatureTypes.base.0"
 };
 
 export function registerCreatureTypeSetting() {
