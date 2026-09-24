@@ -1,0 +1,59 @@
+<form autocomplete="off" onsubmit="event.preventDefault()">
+    <h2><i class="fas fa-bug"></i> {{localize "HNN.Settings.CreatureTypeDebugN"}}</h2>
+    <p class="notes">{{localize "HNN.Diagnostics.Instructions"}}</p>
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.GameSystem"}}</label>
+        <div>{{systemId}} {{systemVersion}}</div>
+    </div>
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.ModuleVersion"}}</label>
+        <div>{{moduleVersion}}</div>
+    </div>
+    {{#if hasActor}}
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.Actor"}}</label>
+        <div>{{actorName}} ({{actorType}})</div>
+    </div>
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.Token"}}</label>
+        <div>{{tokenName}}</div>
+    </div>
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.PathOverride"}}</label>
+        <div>{{pathOverride}}</div>
+    </div>
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.EffectivePath"}}</label>
+        <div>{{effectivePath}}</div>
+    </div>
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.RawValue"}}</label>
+        <div>{{rawValue}}</div>
+    </div>
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.TypeKey"}}</label>
+        <div>{{typeKey}}</div>
+    </div>
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.ResolvedType"}}</label>
+        <div>{{creatureType}}</div>
+    </div>
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.ReplacementPreview"}}</label>
+        <div>{{exampleReplacement}}</div>
+    </div>
+    <div class="form-group">
+        <label>{{localize "HNN.Diagnostics.ActorReplacementOverride"}}</label>
+        <div>{{actorReplacementOverride}}</div>
+    </div>
+    {{#if error}}
+    <div class="notification error">{{localize "HNN.Diagnostics.Error"}}: {{error}}</div>
+    {{/if}}
+    {{else}}
+    <p class="notification warning">{{localize "HNN.Diagnostics.NoSelection"}}</p>
+    <p>{{localize "HNN.Diagnostics.SelectedTokenCount"}}: {{selectedTokenCount}}</p>
+    {{/if}}
+    <footer>
+        <button type="button" name="close">{{localize "HNN.Diagnostics.Close"}}</button>
+    </footer>
+</form>
