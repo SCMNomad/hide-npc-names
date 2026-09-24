@@ -63,6 +63,7 @@ function getCreatureType(actor) {
                 }
                 return null;
             }
+            if (!pathOverride) return null;
         }
 
         return type;
