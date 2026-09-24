@@ -53,31 +53,6 @@
     "Settings.ShowOnActorDirectoryN": "Mostra nella scheda Personaggi",
     "Settings.ShowOnActorDirectoryH": "Se abilitato, il pulsante mostra/nascondi apparirà accanto ai personaggi nella scheda Personaggi",
     "Settings.ShowOnTokenHUDN": "Mostra su Token HUD",
-    "Settings.ShowOnTokenHUDH": "Se abilitato, il pulsante mostra/nascondi apparirà nell'HUD del token (menu del tasto destro)",
-    "Settings.CreatureTypeDebugN": "Diagnostica tipo di creatura",
-    "Settings.CreatureTypeDebugLabel": "Apri diagnostica",
-    "Settings.CreatureTypeDebugH": "Esamina la risoluzione del tipo di creatura per il token selezionato. Disponibile solo per il GM.",
-    "Diagnostics.Instructions": "Seleziona esattamente un token sulla scena prima di aprire questo menu.",
-    "Diagnostics.GameSystem": "Sistema di gioco",
-    "Diagnostics.FoundryVersion": "Versione di Foundry",
-    "Diagnostics.ModuleVersion": "Versione del modulo",
-    "Diagnostics.Actor": "Personaggio",
-    "Diagnostics.Token": "Token",
-    "Diagnostics.PathOverride": "Percorso dati personalizzato",
-    "Diagnostics.EffectivePath": "Percorso usato",
-    "Diagnostics.RawValue": "Valore del percorso",
-    "Diagnostics.TypeKey": "Chiave del tipo",
-    "Diagnostics.ResolvedType": "Tipo di creatura risolto",
-    "Diagnostics.ReplacementPreview": "Esempio: Creatura sconosciuta",
-    "Diagnostics.ActorReplacementOverride": "Sostituzione nome del personaggio",
-    "Diagnostics.Error": "Errore di lettura",
-    "Diagnostics.NoSelection": "Seleziona esattamente un token sulla scena, poi riapri la diagnostica.",
-    "Diagnostics.SelectedTokenCount": "Token selezionati",
-    "Diagnostics.None": "Nessun valore",
-    "Diagnostics.Blank": "Vuoto (usa il percorso integrato)",
-    "Diagnostics.Undefined": "(undefined)",
-    "Diagnostics.Null": "(null)",
-    "Diagnostics.NotSet": "Non impostato",
-    "Diagnostics.Close": "Chiudi"
-}
+    "Settings.ShowOnTokenHUDH": "Se abilitato, il pulsante mostra/nascondi apparirà nell'HUD del token (menu del tasto destro)"
+   }
 }

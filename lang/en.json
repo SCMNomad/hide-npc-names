@@ -53,31 +53,6 @@
     "Settings.ShowOnActorDirectoryN": "Show on Actors Tab",
     "Settings.ShowOnActorDirectoryH": "When enabled, the show/hide button will appear next to actors in the Actors Tab",
     "Settings.ShowOnTokenHUDN": "Show on Token HUD",
-    "Settings.ShowOnTokenHUDH": "When enabled, the show/hide button will appear in the Token HUD (right click menu)",
-    "Settings.CreatureTypeDebugN": "Creature Type Diagnostics",
-    "Settings.CreatureTypeDebugLabel": "Open Diagnostics",
-    "Settings.CreatureTypeDebugH": "Inspect creature type resolution for the selected token. Only available to GMs.",
-    "Diagnostics.Instructions": "Select exactly one token on the canvas before opening this menu.",
-    "Diagnostics.GameSystem": "Game System",
-    "Diagnostics.FoundryVersion": "Foundry Version",
-    "Diagnostics.ModuleVersion": "Module Version",
-    "Diagnostics.Actor": "Actor",
-    "Diagnostics.Token": "Token",
-    "Diagnostics.PathOverride": "Path Override Setting",
-    "Diagnostics.EffectivePath": "Path Used",
-    "Diagnostics.RawValue": "Value at Path",
-    "Diagnostics.TypeKey": "Type Key",
-    "Diagnostics.ResolvedType": "Resolved Creature Type",
-    "Diagnostics.ReplacementPreview": "Example: Unknown Creature",
-    "Diagnostics.ActorReplacementOverride": "Actor Replacement Override",
-    "Diagnostics.Error": "Read Error",
-    "Diagnostics.NoSelection": "Select exactly one token on the canvas, then reopen diagnostics.",
-    "Diagnostics.SelectedTokenCount": "Controlled tokens",
-    "Diagnostics.None": "No value",
-    "Diagnostics.Blank": "Blank (using built-in path)",
-    "Diagnostics.Undefined": "(undefined)",
-    "Diagnostics.Null": "(null)",
-    "Diagnostics.NotSet": "Not set",
-    "Diagnostics.Close": "Close"
-}
+    "Settings.ShowOnTokenHUDH": "When enabled, the show/hide button will appear in the Token HUD (right click menu)"
+  }
 }
