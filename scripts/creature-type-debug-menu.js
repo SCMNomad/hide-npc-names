@@ -27,7 +27,8 @@ export class CreatureTypeDebugMenu extends FormApplication {
 
         return {
             systemId: game.system.id,
-            systemVersion: game.system.version ?? game.system.version ?? "",
+            systemVersion: game.system.version ?? "",
+            foundryVersion: game.version ?? game.release?.version ?? "",
             moduleVersion: game.modules.get(NAME)?.version ?? "",
             selectedTokenCount: selectedTokens.length,
             hasActor: Boolean(actor),
