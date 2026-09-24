@@ -26,6 +26,7 @@
 
     "Defaults.TokenNameHiddenSuffix": "(Nascosto)",
     "Defaults.UnknownCreature": "Creatura Sconosciuta",
+    "Defaults.CreatureTypePlaceholder": "Creatura",
 
     "Settings.HideHostileN": "Nascondi nomi ostili",
     "Settings.HideHostileH": "Nascondi i nomi dei personaggi con la disposizione del token impostata su OSTILE",
@@ -47,6 +48,8 @@
     "Settings.SecretReplacementH": "Il nome predefinito da utilizzare per sostituire i nomi dei personaggi segreti",
     "Settings.TokenNameHiddenSuffixN": "Suffisso nascosto del nome del token",
     "Settings.TokenNameHiddenSuffixH": "La stringa che viene aggiunta al nome del token dei token nascosti nella vista del GM",
+    "Settings.CreatureTypePathOverrideN": "Percorso dati del tipo di creatura (override)",
+    "Settings.CreatureTypePathOverrideH": "Percorso dati opzionale dell'attore usato per recuperare il tipo di creatura. Lascia vuoto per usare il percorso integrato per il sistema di gioco corrente, se supportato.",
     "Settings.ShowOnActorDirectoryN": "Mostra nella scheda Personaggi",
     "Settings.ShowOnActorDirectoryH": "Se abilitato, il pulsante mostra/nascondi apparirà accanto ai personaggi nella scheda Personaggi",
     "Settings.ShowOnTokenHUDN": "Mostra su Token HUD",

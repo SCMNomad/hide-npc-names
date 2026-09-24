@@ -1,7 +1,9 @@
 import * as MODULE_CONFIG from "./config.js";
 import { Utils } from "./utils.js";
+import { registerCreatureTypeSetting } from "./creature-type.js";
 
 export function registerSettings() {
+    registerCreatureTypeSetting();
 
     Utils.registerSetting(MODULE_CONFIG.SETTING_KEYS.hideHostile, {
         name: "HNN.Settings.HideHostileN",
