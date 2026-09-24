@@ -1,6 +1,7 @@
 import { Utils } from "./utils.js";
 import { ActorForm } from "./actor-form.js";
 import { FLAGS, SETTING_KEYS } from "./config.js";
+import { getCreatureTypeReplacementName } from "./creature-type.js";
 
 export class HideNPCNames {
     /**
@@ -440,7 +441,7 @@ export class HideNPCNames {
         const disposition = Utils.getKeyByValue(CONST.TOKEN_DISPOSITIONS, dispositionEnum);
         const replacementSetting = Utils.getSetting(SETTING_KEYS[`${disposition.toLowerCase()}NameReplacement`]);
         const replacementNameOverride = Utils.getModuleFlag(baseActor, FLAGS.replacementNameOverride);
-        let replacementName = replacementNameOverride ?? replacementSetting;
+        let replacementName = replacementNameOverride ?? getCreatureTypeReplacementName(actor, replacementSetting);
         let tokenName = actor.token?.__name ?? actor.token?.name;
         replacementName = tokenName ? tokenName.replace(/^(.*?)(\s\(\d+\))?$/, `${replacementName}$2`) : replacementName;
 

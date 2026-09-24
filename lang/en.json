@@ -26,6 +26,7 @@
 
     "Defaults.TokenNameHiddenSuffix": "(Hidden)",
     "Defaults.UnknownCreature": "Unknown Creature",
+    "Defaults.CreatureTypePlaceholder": "Creature",
 
     "Settings.HideHostileN": "Hide Hostile Names",
     "Settings.HideHostileH": "Hide Names of Actors with Token Disposition set to HOSTILE",
@@ -47,6 +48,8 @@
     "Settings.SecretReplacementH": "The default name to use when replacing Secret Actor names",
     "Settings.TokenNameHiddenSuffixN": "Token Name Hidden Suffix",
     "Settings.TokenNameHiddenSuffixH": "The string that gets appended to the token name of hidden tokens in the GM's view",
+    "Settings.CreatureTypePathOverrideN": "Creature Type Data Path Override",
+    "Settings.CreatureTypePathOverrideH": "Optional actor data path used to retrieve creature type. Leave blank to use the built-in path for the current game system, when supported.",
     "Settings.ShowOnActorDirectoryN": "Show on Actors Tab",
     "Settings.ShowOnActorDirectoryH": "When enabled, the show/hide button will appear next to actors in the Actors Tab",
     "Settings.ShowOnTokenHUDN": "Show on Token HUD",
