@@ -1,9 +1,18 @@
 import * as MODULE_CONFIG from "./config.js";
 import { Utils } from "./utils.js";
 import { registerCreatureTypeSetting } from "./creature-type.js";
+import { CreatureTypeDebugMenu } from "./creature-type-debug-menu.js";
 
 export function registerSettings() {
     registerCreatureTypeSetting();
+    Utils.registerMenu("creatureTypeDiagnostics", {
+        name: "HNN.Settings.CreatureTypeDebugN",
+        label: "HNN.Settings.CreatureTypeDebugLabel",
+        hint: "HNN.Settings.CreatureTypeDebugH",
+        icon: "fas fa-bug",
+        type: CreatureTypeDebugMenu,
+        restricted: true
+    });
 
     Utils.registerSetting(MODULE_CONFIG.SETTING_KEYS.hideHostile, {
         name: "HNN.Settings.HideHostileN",
